@@ -3,8 +3,8 @@ kind: Deployment
 metadata:
   generation: 1
   labels:
-    app: delivery
-  name: delivery
+    app: ctse-delivery
+  name: ctse-delivery
   namespace: default
 spec:
   progressDeadlineSeconds: 600
@@ -12,7 +12,7 @@ spec:
   revisionHistoryLimit: 10
   selector:
     matchLabels:
-      app: delivery
+      app: ctse-delivery
   strategy:
     rollingUpdate:
       maxSurge: 25%
@@ -22,7 +22,7 @@ spec:
     metadata:
       creationTimestamp: null
       labels:
-        app: delivery
+        app: ctse-delivery
     spec:
       containers:
         - image: it19037998/ctse-assignment3-it19037998:{{tag}}
