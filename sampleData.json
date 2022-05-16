@@ -1,0 +1,25 @@
+[
+    {
+        "customerID": "CUS001",
+        "customerName": "Kamal",
+        "customerPhone": "0776525422",
+        "shippingAddress": "Sri Lanka",
+        "orderID": "ORD001"
+    },
+    {
+        "customerID": "CUS002",
+        "customerName": "Nimal",
+        "customerPhone": "0776525444",
+        "shippingAddress": "Sri Lanka",
+        "orderID": "ORD002"
+    },
+    {
+        "deliveryStatus": "Ready For Shipping"
+    },
+    {
+        "deliveryStatus": "Sent"
+    },
+    {
+        "deliveryStatus": "Received"
+    }
+]
