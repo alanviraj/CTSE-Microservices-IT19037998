@@ -22,7 +22,7 @@ app.use(bodyParser.json());
 
 const URL = process.env.MONGODB_URL;
 
-mongoose.connect(URL);
+// mongoose.connect(URL);
 
 /**CHecking whether the database is connected or not */
 const connection = mongoose.connection;
