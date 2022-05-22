@@ -3,14 +3,14 @@ kind: Service
 metadata:
   creationTimestamp: null
   labels:
-    app: ctse-delivery
-  name: ctse-delivery
+    app: delivery-it19037998
+  name: delivery-it19037998
 spec:
   ports:
     - port: 8072
       protocol: TCP
       targetPort: 8072
   selector:
-    app: ctse-delivery
+    app: delivery-it19037998
 status:
   loadBalancer: {}
